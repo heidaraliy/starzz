@@ -3,7 +3,10 @@ import Introduction from './components/Introduction'
 
 function App() {
   return (
-    <Introduction/>
+    <div>
+        <Introduction/>
+    </div>
+    
   )
 }
 
