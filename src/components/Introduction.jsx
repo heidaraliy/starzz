@@ -52,16 +52,16 @@ function Introduction() {
                 </div>
 
                 <div class="relative flex hidden min-h-12 flex-col justify-center overflow-hidden py-4">
-                    <div class="mx-auto max-w-4xl border-solid border-4 border-black bg-gradient-to-b from-white to bg-slate-200 p-4 text-center">
-                        <button>
+                    <div class="mx-auto max-w-4xl p-4 text-center">
+                        <button class="mx-auto max-w-4xl border-solid border-4 border-black bg-gradient-to-b from-white to bg-slate-200 px-12 py-4 text-center active:scale-90 hover:border-emerald-700">
                             mint now
                         </button>
                     </div>
                 </div>
 
                 <div class="relative flex min-h-12 flex-col justify-center overflow-hidden py-4">
-                    <div class="opacity-50 mx-auto max-w-4xl border-solid border-4 border-black bg-gradient-to-b from-white to bg-slate-200 p-4 text-center">
-                        <button>
+                    <div class="opacity-50 mx-auto max-w-4xl p-4 text-center">
+                        <button class="opacity-50 mx-auto max-w-4xl border-solid border-4 border-black bg-gradient-to-b from-white to bg-slate-200 px-12 py-4 text-center">
                             mint unavailable
                         </button>
                     </div>
