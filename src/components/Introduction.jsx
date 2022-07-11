@@ -7,12 +7,12 @@ import tvlines from '../lib/photos/tvlines.png'
 
 function Introduction() {
   return (
-    <div className='flex-col max-w-90 justify-center bg-gradient-to-b from-yellow-300 to-white'>
+    <div className='flex-col max-w-90 justify-center bg-gradient-to-b from-indigo-600 to-white'>
 
 
                 <div className="relative flex max-h-screen flex-col justify-center overflow-hidden py-4">
                     <div className="mx-auto max-w-4xl border-solid border-2 border-black bg-gradient-to-b from-white to bg-slate-200">
-                        <div className="flex flex-col md:flex-row font-bold italic text-xl justify-between active-scale:80 p-2">
+                        <div className="flex flex-col md:flex-row font-bold italic text-xl justify-between p-2">
                             <div className='cursor-pointer active:scale-90 mx-4 hover:text-sky-500'>twitter</div>
                             <div className='cursor-pointer hover:text-yellow-600 active:scale-90 mx-4 '>the collection</div>
                             <div className='cursor-pointer hover:text-indigo-500 active:scale-90 mx-4 '>discord</div>
@@ -99,7 +99,7 @@ function Introduction() {
                     <div className="mx-auto max-w-2xl border-solid border-2 border-black bg-gradient-to-b from-white to bg-slate-200 text-center">
                         <h1 className='my-4 mx-4 text-l text-center'>
                             <h2 className='text-2xl font-bold'>Attributes</h2>
-                                Attributes are based on a numerical scale ranging from 0.0 to 10.0. With the Edition 1.0 Pack, Attributes will be composed of: Rapping, Singing, Production, Eccentricity, Lyricism, and Energy.
+                                Attributes are based on a numerical scale ranging from 0.0 to 10. With the Edition 1.0 Pack, Attributes will be composed of: Rapping, Singing, Production, Eccentricity, Lyricism, and Energy.
                                 With higher attribute scores come higher rarities.
                                     <div className="relative flex min-h-12 flex-col justify-center overflow-hidden py-4">
                                         <div className="mx-auto max-w-5xl border-solid border-1 border-black p-2 text-center">  
@@ -133,9 +133,9 @@ function Introduction() {
 
                 <div className="relative flex min-h-12 flex-col justify-center overflow-hidden py-4">
                     <div className="mx-auto max-w-4xl border-solid border-2 border-black bg-gradient-to-b from-white to bg-slate-200">
-                        <div className="flex flex-col md:flex-row font-bold italic text-xl justify-between active-scale:80 p-2">
-                            <div className='cursor-pointer active:scale-90 mx-4 hover:text-sky-500'>twitter</div>
-                            <div className='cursor-pointer hover:text-indigo-500 active:scale-90 mx-4 '>discord</div>
+                        <div className="flex flex-col md:flex-row font-bold italic text-xl justify-between p-2">
+                            <div className='cursor-pointer active:scale-90 mx-4 hover:text-gray-500'>omnispark labs</div>
+                            <div className='cursor-pointer hover:text-gray-500 active:scale-90 mx-4 '>whitecircle</div>
                         </div>
                     </div>
                 </div>
